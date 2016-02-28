@@ -1,0 +1,18 @@
+#!/bin/sh
+echo -n "Number? "
+read num
+
+echo -n "me? "
+read me
+
+echo -n "filename? "
+read filename
+
+
+if [ ! -d "$PWD/back/learnyounode/$num" ]; then
+	mkdir $PWD/back/learnyounode/$num
+fi
+if [ ! -d "$PWD/back/learnyounode/$num/$me" ]; then
+	mkdir $PWD/back/learnyounode/$num/$me
+fi
+cp $filename $PWD/back/learnyounode/$num/$me/$filename
