@@ -1,5 +1,4 @@
--#!/bin node
- -
- -learnyounode
- -
- -cd /home/masashi/NodeSchool
+#!/bin node
+learnyounode
+
+cd /home/masashi/NodeSchool
