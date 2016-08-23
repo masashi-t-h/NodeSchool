@@ -5,7 +5,7 @@ export default class TodoBox extends React.Component{
     return(
     	<div className="todoBox">
       	<h1>Todos</h1>
-      	<TodoList data = {this.props.data} />
+      	<TodoList />
       	<TodoForm />
      	</div>
     );
@@ -14,35 +14,27 @@ export default class TodoBox extends React.Component{
 
 class TodoList extends React.Component {
 	render() {
-		var todo = this.props.data.map(function(obj) { return <Todo title={obj.title} key={obj.title}>{obj.detail}</Todo>});
 		return(
 			<div className="todoList">
 				<table style={{border: "2px solid black"}}>
 					<tbody>
-						{todo}
+						<Todo title="Shopping">Milk</Todo>
+						<Todo title="Hair cut">13:00</Todo>
+						<Todo title="Learn React">15:00</Todo>
 					</tbody>
 				</table>
+
 			</div>
 		);
 	}
 }
 
 class Todo extends React.Component {
-	constructor(props) {
-		super(props);
-		this.state = {checked: false};
-	}
-	handleChange(e) {
-		this.setState({checked: e.target.checked})
-	}
 	render() {
 		return(
 			<tr>
-				<td style={{border: "1px solid black"}}>
-					<input type="checkbox" checked={this.state.checked} onChage={this.hancleChange}/>
-				</td>
-				<td style={style.tableContent}>{this.props.title}</td>
-				<td style={style.tableContent}>{this.props.children}</td>
+				<td style={{border: "1px solid black"}}>{this.props.title}</td>
+				<td style={{border: "1px solid black"}}>{this.props.children}</td>
 			</tr>
 		);
 	}
@@ -59,11 +51,5 @@ class TodoForm extends React.Component {
 				I am a TodoForm.
 			</div>
 		);
-	}
-}
-
-let style = {
-	tableContent: {
-		border: "1px solid black"
 	}
 }
