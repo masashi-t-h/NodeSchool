@@ -32,7 +32,7 @@ var data = [
 	}
 ];
 
-app.use('/bundle.js', function(req, res){
+app.use('/bundle.js', function(res, req){
 	res.setHeader('content-type', 'application/javascript');
 
 	browserify({debug: true})
