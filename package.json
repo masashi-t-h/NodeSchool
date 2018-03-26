@@ -18,5 +18,15 @@
   "bugs": {
     "url": "https://github.com/shisama/NodeSchool/issues"
   },
-  "homepage": "https://github.com/shisama/NodeSchool#readme"
+  "homepage": "https://github.com/shisama/NodeSchool#readme",
+  "dependencies": {
+    "expressworks": "^3.4.2",
+    "javascripting": "^2.6.1",
+    "learn-sass": "^1.7.0",
+    "learnyoubash": "^2.1.0",
+    "learnyounode": "^3.5.10",
+    "learnyoureact": "file:learnyoureact",
+    "scope-chains-closures": "^1.0.4",
+    "stream-adventure": "file:stream-adventure"
+  }
 }
