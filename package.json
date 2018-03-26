@@ -1,0 +1,22 @@
+{
+  "name": "nodeschool",
+  "version": "1.0.0",
+  "description": "NodeSchool workshops",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shisama/NodeSchool.git"
+  },
+  "keywords": [
+    "nodeschool"
+  ],
+  "author": "Masashi Hirano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shisama/NodeSchool/issues"
+  },
+  "homepage": "https://github.com/shisama/NodeSchool#readme"
+}
