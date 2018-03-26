@@ -25,8 +25,8 @@
     "learn-sass": "^1.7.0",
     "learnyoubash": "^2.1.0",
     "learnyounode": "^3.5.10",
-    "learnyoureact": "file:learnyoureact",
+    "learnyoureact": "^0.12.0",
     "scope-chains-closures": "^1.0.4",
-    "stream-adventure": "file:stream-adventure"
+    "stream-adventure": "^4.1.1"
   }
 }

@@ -1,0 +1,12 @@
+{
+  "name": "scope-chains-closures",
+  "version": "1.0.0",
+  "description": "",
+  "main": "closures.js",
+  "scripts": {
+    "start": "../node_modules/.bin/scope-chains-closures",
+    "test": "npm start -- verify"
+  },
+  "author": "",
+  "license": "ISC"
+}

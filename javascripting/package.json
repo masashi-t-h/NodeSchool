@@ -1,10 +1,10 @@
 {
-  "name": "learnyounode",
+  "name": "javascripting",
   "version": "1.0.0",
   "description": "",
-  "main": "program.js",
+  "main": "index.js",
   "scripts": {
-    "start": "../node_modules/.bin/learnyounode",
+    "start": "../node_modules/.bin/javascripting",
     "test": "npm start -- verify program.js"
   },
   "author": "",
